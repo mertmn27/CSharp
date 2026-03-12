@@ -1,0 +1,102 @@
+<Solution>
+  <Folder Name="/UdemyC01-Variables/">
+    <Project Path="UdemyC01-Variables/1-WriteCommands/1-WriteCommands/01-WriteCommands.csproj" Id="b604d59d-0c0d-49d8-a13b-ba71e1aea3ac" />
+    <Project Path="UdemyC01-Variables/10-TypeConversions/10-TypeConversions/10-TypeConversions.csproj" Id="97fa9dad-9808-4b30-ac1f-bba87eae843a" />
+    <Project Path="UdemyC01-Variables/11-ObjectVariable/11-ObjectVariable/11-ObjectVariable.csproj" Id="3386cd4c-8da4-4a8f-85d9-56d4005a6525" />
+    <Project Path="UdemyC01-Variables/2-ReadCommands/2-ReadCommands/02-ReadCommands.csproj" Id="96179af1-57c1-4271-9a89-e15c7f3ae3c6" />
+    <Project Path="UdemyC01-Variables/3-StringCharVariables/3-StringCharVariables/03-StringCharVariables.csproj" Id="993842b0-9a96-45bc-b087-9a6fe26e910a" />
+    <Project Path="UdemyC01-Variables/4-ByteIntVariables/4-ByteIntVariables/04-ByteIntVariables.csproj" Id="1b53951b-ce85-41f0-b6ef-dfab9f52a32f" />
+    <Project Path="UdemyC01-Variables/5-DoubleFloatDecimalVariables/5-DoubleFloatDecimalVariables/05-DoubleFloatDecimalVariables.csproj" Id="da5ad23d-7674-497c-beaf-613e9802b4c7" />
+    <Project Path="UdemyC01-Variables/6-BooleanVariables/6-BooleanVariables/06-BooleanVariables.csproj" Id="23906e84-ecc1-46b8-a5d2-63855b8af163" />
+    <Project Path="UdemyC01-Variables/7-DateTimeVariables/7-DateTimeVariables/07-DateTimeVariables.csproj" Id="cef0924e-5d40-4f1f-b5fa-3398791e898b" />
+    <Project Path="UdemyC01-Variables/8-VariableScopes/8-VariableScopes/08-VariableScopes.csproj" Id="2d1861bf-0907-4adc-bef2-688daadc34d3" />
+    <Project Path="UdemyC01-Variables/9-VariableBehaviours/9-VariableBehaviours/09-VariableBehaviours.csproj" Id="a0bd0235-d4ff-4a47-9e5b-3c6edc316eb4" />
+  </Folder>
+  <Folder Name="/UdemyC02-Operators/">
+    <Project Path="UdemyC02-Operators/1-ArithmeticOperators/01-ArithmeticOperators/01-ArithmeticOperators.csproj" Id="da4f3c59-65ac-4641-8639-c777595e5b1a" />
+    <Project Path="UdemyC02-Operators/2-AssigningOperators/02-AssigningOperators/02-AssigningOperators.csproj" Id="9c8f2760-5bb0-4640-ba06-2f55f936ce8e" />
+    <Project Path="UdemyC02-Operators/3-ComparingOperators/03-ComparingOperators/03-ComparingOperators.csproj" Id="7cffedf6-1d71-4f23-af38-0e874513b5eb" />
+    <Project Path="UdemyC02-Operators/4-LogicalOperators/04-LogicalOperators/04-LogicalOperators.csproj" Id="444e5b08-ce87-4900-90db-11f29f87828e" />
+    <Project Path="UdemyC02-Operators/5-IncreaseDecreaseOperators/05-IncreaseDecreaseOperators/05-IncreaseDecreaseOperators.csproj" Id="357d741b-457a-4a04-a349-691fc71e4ee2" />
+  </Folder>
+  <Folder Name="/UdemyC03-Conditions/">
+    <Project Path="UdemyC03-Conditions/1-IfStatements/01-IfStatements/01-IfStatements.csproj" Id="ac297b0d-8526-41d2-99c2-31dc1e8a6d7f" />
+    <Project Path="UdemyC03-Conditions/2-SwitchCaseStatements/02-SwitchCaseStatements/02-SwitchCaseStatements.csproj" Id="b238fc7f-e12f-4249-bcca-b4e54bf4f5ca" />
+  </Folder>
+  <Folder Name="/UdemyC04-Loops/">
+    <Project Path="UdemyC04-Loops/1-ForLoop/01-ForLoop/01-ForLoop.csproj" Id="cc8e2141-0ee2-4fb3-b023-8172efc78fb8" />
+    <Project Path="UdemyC04-Loops/2-WhileLoop/02-WhileLoop/02-WhileLoop.csproj" Id="0608cb9f-992a-405b-b4bd-987bcb58bad5" />
+    <Project Path="UdemyC04-Loops/3-ForeachLoop/03-ForeachLoop/03-ForeachLoop.csproj" Id="e4f983f6-d316-4b24-bb1c-5bc7a0a81f74" />
+    <Project Path="UdemyC04-Loops/4-DoWhileLoop/04-DoWhileLoop/04-DoWhileLoop.csproj" Id="6e34b92b-03b5-4d08-a38d-c2aeb51fbf48" />
+    <Project Path="UdemyC04-Loops/5-Break/05-Break/05-Break.csproj" Id="0ac2ecd7-a0ed-4f96-9c95-6a8f3fa90ef3" />
+    <Project Path="UdemyC04-Loops/6-Continue/06-Continue/06-Continue.csproj" Id="93adf08d-453d-4bec-b2b1-a1d07a67d578" />
+    <Project Path="UdemyC04-Loops/7-NestedLoops/07-NestedLoops/07-NestedLoops.csproj" Id="00ffd83c-0a4d-4ff1-8c35-f28b66e0f2d1" />
+  </Folder>
+  <Folder Name="/UdemyC05-Arrays/">
+    <Project Path="UdemyC05-Arrays/1-ArrayOperations/01-ArrayOperations/01-ArrayOperations.csproj" Id="4aaafd84-1c82-4dc2-9765-9f5259954601" />
+    <Project Path="UdemyC05-Arrays/2-ArrayOperations/02-ArrayOperations/02-ArrayOperations.csproj" Id="51832473-ba42-419a-b878-5ab0610d0301" />
+  </Folder>
+  <Folder Name="/UdemyC06-Collections1/">
+    <Project Path="UdemyC06-Collections1/1-ArrayList/01-ArrayList/01-ArrayList.csproj" Id="ff743839-143b-4c9d-bf97-f9c94fdf3d54" />
+    <Project Path="UdemyC06-Collections1/2-HashTable/02-HashTable/02-HashTable.csproj" Id="dae7a66b-dca7-4cc8-90b7-9c915cacf70c" />
+    <Project Path="UdemyC06-Collections1/3-SortedList/03-SortedList/03-SortedList.csproj" Id="c8c35a2d-8691-4e63-9a42-86a767c88dfb" />
+    <Project Path="UdemyC06-Collections1/4-Stack/04-Stack/04-Stack.csproj" Id="2a397919-a9f0-4775-9c58-0c8663666b23" />
+    <Project Path="UdemyC06-Collections1/5-Queue/05-Queue/05-Queue.csproj" Id="7ecef519-9df6-4fa5-a4f4-926873e6174f" />
+  </Folder>
+  <Folder Name="/UdemyC07-Methods/">
+    <Project Path="UdemyC07-Methods/01-Methods/01-Methods.csproj" Id="5c98b3e7-0f89-476b-9acb-4614d52f83a5" />
+    <Project Path="UdemyC07-Methods/02-Proje1/02-Proje1.csproj" Id="e7e987d7-87da-454c-94db-4759366dba4d" />
+    <Project Path="UdemyC07-Methods/03-Proje2/03-Proje2.csproj" Id="27ebff96-d39b-43ef-b9db-2bda081a7cde" />
+    <Project Path="UdemyC07-Methods/04-Overloading/04-Overloading.csproj" Id="d420a953-dc16-44bb-ba62-b7981deb312f" />
+    <Project Path="UdemyC07-Methods/05-OptionalParameter/05-OptionalParameter.csproj" Id="52f4256f-1c41-47c5-a1d2-96101d1d3af0" />
+    <Project Path="UdemyC07-Methods/06-NamedArguments/06-NamedArguments.csproj" Id="9186f4c8-2465-4a6b-87df-0238d232e286" />
+    <Project Path="UdemyC07-Methods/07-Params/07-Params.csproj" Id="0591b1e0-b24f-4e37-9b70-32fd491534f1" />
+  </Folder>
+  <Folder Name="/UdemyC08-OOP/">
+    <Project Path="Udemy08-OOP/08-Static/08-Static.csproj" Id="af61689d-95a8-416e-8419-f4700d780eff" />
+    <Project Path="UdemyC08-OOP/01-Classes/01-Classes.csproj" Id="28daaabc-c736-4746-8e8a-63c792a5134c" />
+    <Project Path="UdemyC08-OOP/02-ByValueByReference/02-ByValueByReference.csproj" Id="c61029cb-5654-45f6-82ab-2e4fb16ed4fa" />
+    <Project Path="UdemyC08-OOP/03-Constructor/03-Constructor.csproj" Id="46f7cd53-e102-45ab-94dc-c80bb9081ebb" />
+    <Project Path="UdemyC08-OOP/04-Proje1/04-Proje1.csproj" Id="3f650fa0-2621-4b45-a2c8-9dcba776cd7d" />
+    <Project Path="UdemyC08-OOP/05-ObjectInitializer/05-ObjectInitializer.csproj" Id="1ca4e967-7951-4edc-a59a-132150ac199e" />
+    <Project Path="UdemyC08-OOP/06-Encapsulation/06-Encapsulation.csproj" Id="157753f2-203d-4532-bd56-74e70c58fe34" />
+    <Project Path="UdemyC08-OOP/07-Proje2/07-Proje2.csproj" Id="b0334b7e-ee6a-4983-923e-e6d9385e5a00" />
+    <Project Path="UdemyC08-OOP/09-Proje3/09-Proje3.csproj" Id="064b0014-ec87-4549-800c-ff26cac65b3f" />
+    <Project Path="UdemyC08-OOP/10-StaticCont/10-StaticCont.csproj" Id="176b67b5-419e-4ad2-839a-ab92ec46a1f3" />
+    <Project Path="UdemyC08-OOP/11-OtoparkUygulaması/11-OtoparkUygulaması.csproj" Id="c501440c-09a7-4857-8240-2da16f2141f9" />
+    <Project Path="UdemyC08-OOP/12-Innertype/12-Innertype.csproj" Id="018ca66d-6f36-4d76-aebe-14bff2236995" />
+    <Project Path="UdemyC08-OOP/13-Enum/13-Enum.csproj" Id="b4055701-313c-451f-9db3-cb1b41a00df5" />
+    <Project Path="UdemyC08-OOP/14-Inheritance/14-Inheritance.csproj" Id="b474da9b-6038-4ca2-b0a9-32f8ecc17ac5" />
+    <Project Path="UdemyC08-OOP/15-VirtualMethod/15-VirtualMethod.csproj" Id="8a2b7ebc-6ba5-472f-aee4-6ca54119fada" />
+    <Project Path="UdemyC08-OOP/16-Proje4/16-Proje4.csproj" Id="69b967ee-95a4-48c1-93cd-064983c2b793" />
+  </Folder>
+  <Folder Name="/UdemyC09-Generic/">
+    <Project Path="UdemyC09-Generic/01-Generic/01-Generic.csproj" Id="f7a86b2c-8bbe-48a4-8478-54881b112339" />
+    <Project Path="UdemyC09-Generic/02-GenericHashTable/02-GenericHashTable.csproj" Id="5eca34b7-17d7-47dc-ab54-a1ddad65069f" />
+    <Project Path="UdemyC09-Generic/03-GenericClasses/03-GenericClasses.csproj" Id="8ebfbadd-3a47-4e21-9e65-4fe794ca003b" />
+    <Project Path="UdemyC09-Generic/04-Proje1/04-Proje1.csproj" Id="5d31c56a-ffac-4c95-bb0e-e2a952f763db" />
+  </Folder>
+  <Folder Name="/UdemyC10-ExceptionHandling/">
+    <Project Path="UdemyC10-ExceptionHandling/01-TryCatchFinally/01-TryCatchFinally/01-TryCatchFinally.csproj" Id="e65e7ce7-34af-443f-9b92-78702e7136b4" />
+  </Folder>
+  <Folder Name="/UdemyC11-File/">
+    <Project Path="UdemyC11-File/01-DirectoryExists/01-Directory.csproj" Id="da3faf2a-1622-42d9-82ba-9e90483352b1" />
+  </Folder>
+  <Folder Name="/UdemyC12-Json/">
+    <Project Path="UdemyC12-Json/01-JsonInceleme/01-JsonInceleme.csproj" Id="862f2005-c2c2-4cc9-9ae4-243547885df9" />
+  </Folder>
+  <Folder Name="/UdemyC13-WindowsForm/">
+    <Project Path="UdemyC13-WindowsForm/01-Inceleme/01-Inceleme.csproj" Id="0870178a-26c2-477f-a617-39bdcd6b5483" />
+  </Folder>
+  <Folder Name="/UdemyC14-AraBölümUygulama/">
+    <Project Path="UdemyC14-AraBölümUygulama/Uygulama/Uygulama.csproj" Id="df8db51a-f727-40c1-a9d1-7a08043f7e8d" />
+  </Folder>
+  <Folder Name="/UdemyC15-Delegate/">
+    <Project Path="UdemyC15-Delegate/01-Delegate/01-Delegate.csproj" Id="6f700a48-a488-4b22-b35a-6e4f8fd8b0b1" />
+    <Project Path="UdemyC15-Delegate/02-İsimsizMetotKullanımı/02-İsimsizMetotKullanımı.csproj" Id="6c7f8c11-e81d-4e4f-a808-da32c84a2006" />
+  </Folder>
+  <Folder Name="/UdemyC16-LINQ/">
+    <Project Path="UdemyC16-LINQ/01-LINQ/01-LINQ.csproj" Id="1a872a91-b586-4e78-96c5-34e503c136a6" />
+  </Folder>
+  <Project Path="Deneme/Deneme/Deneme.csproj" Id="b143f349-4053-49c9-bab4-567429d4bc2d" />
+</Solution>

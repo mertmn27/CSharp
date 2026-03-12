@@ -1,0 +1,31 @@
+
+// Veri Tipi        Örnek Veri
+// string           "Mert"
+// number           10 , 100.18
+// boolean          true, false
+// object           { }
+// array            [ ]
+// null             null
+
+//{
+//  "companyName": "ABC Company",
+//  "employeeCount": 100,
+//  "isActive": true,
+//  "lastAccessDate": null
+//}
+
+[
+  {
+    "personID": 1,
+    "firstName": "Mert",
+    "lastName": "Arslan",
+    "age": 20
+  },
+
+  {
+    "personID": 2,
+    "firstName": "Osman",
+    "lastName": "Arslan",
+    "age": 21
+  }
+]
