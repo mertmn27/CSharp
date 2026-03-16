@@ -1,7 +1,21 @@
-﻿namespace _01_LINQ
+﻿using System.Reflection.Metadata.Ecma335;
+using System.Security.Cryptography;
+
+namespace _01_LINQ
 {
     internal class Program
     {
+        static bool funcDelegateKullanimi1(Musteri m)
+        {
+            if (m.Isim[0] == 'A')
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
         static void Main(string[] args)
         {
             dataSource ds = new dataSource();
@@ -9,6 +23,21 @@
 
             #region LINQ sorgularında Delegate kullanımı =>
 
+            var delegateKullanimi1 = musteriListe.Where(I => I.Isim.StartsWith("A"));
+
+            Func<Musteri, bool> funcDelegate1 = new Func<Musteri, bool>(funcDelegateKullanimi1);
+
+            var delegateKullanimi2 = musteriListe.Where(funcDelegate1);
+
+            var delegateKullanimi3 = musteriListe.Where(new Func<Musteri, bool>(funcDelegateKullanimi1));
+
+            var delegateKullanimi4 = musteriListe.Where(delegate(Musteri m) { return m.Isim[0] == 'A' ? true : false; });
+
+            var delegateKullanimi5 = musteriListe.Where((Musteri m) => { return m.Isim[0] == 'A' ? true : false; });
+
+            var delegateKullanimi6 = musteriListe.Where((m) => { return m.Isim[0] == 'A' ? true : false; });
+
+            var delegateKullanimi7 = musteriListe.Where(m => m.Isim[0] == 'A');
             #endregion
 
             #region Alistirma
