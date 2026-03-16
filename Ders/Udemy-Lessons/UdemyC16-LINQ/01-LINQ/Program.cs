@@ -16,12 +16,70 @@ namespace _01_LINQ
                 return false;
             }
         }
+
+        static bool predicateDelegateMethod(Musteri m)
+        {
+            if(m.DogumTarihi.Year > 1990)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        static void MusteriListele(Musteri m)
+        {
+            Console.WriteLine(m.Isim + " " + m.Soyisim);
+        }
         static void Main(string[] args)
         {
             dataSource ds = new dataSource();
             List<Musteri> musteriListe = ds.MusteriListesi();
 
-            #region LINQ sorgularında Delegate kullanımı =>
+            #region LINQ Uygulama
+
+            var odevAlistirma1 = from I in musteriListe
+                                 where I.Isim.StartsWith("A") && I.Soyisim.Contains("e") && I.DogumTarihi.Year > 1985
+                                 select I;
+
+            var odevAlistirma2 = musteriListe.Where(I => I.Isim.StartsWith("A") && I.Soyisim.Contains("e") && I.DogumTarihi.Year > 1985).Select(I => I);
+
+            #endregion
+
+            #region LINQ Sorgularında Action Delegate Kullanımı =>
+
+            Action < Musteri > actionMusteri = new Action<Musteri>(MusteriListele);
+            musteriListe.ForEach(actionMusteri);
+
+            musteriListe.ForEach(new Action<Musteri>(MusteriListele));
+
+            musteriListe.ForEach(delegate (Musteri m) { Console.WriteLine(m.Isim + " " + m.Soyisim); });
+
+            musteriListe.ForEach((Musteri m) => { Console.WriteLine(m.Isim + " " + m.Soyisim); });
+
+            musteriListe.ForEach((m) => { Console.WriteLine(m.Isim + " " + m.Soyisim); });
+            #endregion
+
+            #region LINQ Sorgularında Predicate Delegate Kullanımı =>
+            // Func delegate sadece boolean değer dönmez herhangi bir değer dönebilir ancak predicate delegate sadece bool döner.
+            Predicate<Musteri> Predicate = new Predicate<Musteri>(predicateDelegateMethod);
+
+            var DelegateKullanimiPredicate1 = musteriListe.FindAll(Predicate);
+
+            var DelegateKullanimiPredicate2 = musteriListe.FindAll(new Predicate<Musteri>(predicateDelegateMethod));
+
+            var DelegateKullanimiPredicate3 = musteriListe.FindAll(delegate (Musteri m) { return m.DogumTarihi.Year > 1990; });
+
+            var DelegateKullanimiPredicate4 = musteriListe.FindAll((Musteri m) => { return m.DogumTarihi.Year > 1990; });
+
+            var DelegateKullanimiPredicate5 = musteriListe.FindAll((m) => { return m.DogumTarihi.Year > 1990; });
+
+            var DelegateKullanimiPredicate6 = musteriListe.FindAll((m) => m.DogumTarihi.Year > 1990);
+            #endregion
+
+            #region LINQ sorgularında Func Delegate kullanımı =>
 
             var delegateKullanimi1 = musteriListe.Where(I => I.Isim.StartsWith("A"));
 
