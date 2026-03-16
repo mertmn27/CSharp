@@ -7,6 +7,10 @@
             dataSource ds = new dataSource();
             List<Musteri> musteriListe = ds.MusteriListesi();
 
+            #region LINQ sorgularında Delegate kullanımı =>
+
+            #endregion
+
             #region Alistirma
 
             IEnumerable<Musteri> musteriListeAlistirma1 = musteriListe.Where(I => I.Ulke.StartsWith("A"));
