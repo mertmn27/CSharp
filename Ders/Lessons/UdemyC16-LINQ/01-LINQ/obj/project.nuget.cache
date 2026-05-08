@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "jJ3kO4vBBLE=",
+  "success": true,
+  "projectFilePath": "C:\\C#\\Ders\\Udemy-Lessons\\UdemyC16-LINQ\\01-LINQ\\01-LINQ.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mert\\.nuget\\packages\\fakedata\\1.0.0\\fakedata.1.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "'FakeData 1.0.0' paketi, proje hedef çerçevesi 'net10.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "projectPath": "C:\\C#\\Ders\\Udemy-Lessons\\UdemyC16-LINQ\\01-LINQ\\01-LINQ.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\C#\\Ders\\Udemy-Lessons\\UdemyC16-LINQ\\01-LINQ\\01-LINQ.csproj",
+      "libraryId": "FakeData",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
